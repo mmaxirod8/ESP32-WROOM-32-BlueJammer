@@ -2,8 +2,9 @@
 ### 📌 Here you can see how I implemented a ESP32-WROOM-32 as the main component for a Bluetooth Jammer.
 
 <p align="center">
-<img src="" width="400">
+<img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/f06bab14-9d3d-45f5-8d8d-57611350fd09" />
 </p>
+
 
 ---
 
