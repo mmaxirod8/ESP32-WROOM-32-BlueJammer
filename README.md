@@ -29,12 +29,12 @@ First, we need the following components to carry out the project:
 # 🔎 Step by Step
 ### 1. 📟 ESP32 Drivers
 
-### 2. ⚖️ Existen 2 versiones del proyecto, cual vas a elegir?
+### 2. ⚖️ Existen 2 versiones del proyecto, ¿cual vas a elegir?
 
 - Proyecto completo y pulido
 - Proyecto de rapida implementacion
 
-### 3. 📜 Una vez elegida la version, que necesitamos para empezar a construir nuestro BlueJammer en cada caso?
+### 3. 📜 Una vez elegida la version, ¿que necesitamos para empezar a construir nuestro BlueJammer en cada caso?
 
 ### 4. 🛠️ Flash & Firmware
 
