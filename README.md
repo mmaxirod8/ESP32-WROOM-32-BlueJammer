@@ -15,14 +15,13 @@
 ### 🛒 Things we need
 First, we need the following components to carry out the project:
 - `ESP32-WROOM-32` or `ESP32-U` (este ultimo debera tener incorporado su antena propia)
-- `USB Cable` or `Litium Battery` for the power of the ESP32
+- `USB Cable` or `Litium Battery` [optional], for the power of the ESP32
 - `2 x nrf24l01 + anthena`
-- `0.9 inch Oled screen` (optional)
-- `5 buttons` (optional)
-- `Led Monitor` (optional)
-- `Jumpers wire`
-- `Protoboard` (for testing in first place)
-- `PCB perforda` (si queremos una implementacion final y portabilidad) (optional)
+- `Jumpers wire` or `tin` [optional], for connections
+- `Protoboard` (for testing in first place) or `PCB perforda` (si queremos una implementacion final y portabilidad) [optional]
+- `0.9 inch Oled screen` [optional]
+- `5 buttons` [optional]
+- `Led Monitor` [optional]
 
 ---
 
