@@ -25,4 +25,5 @@ First, we need the following components to carry out the project:
 
 ---
 
-### 📌 Como empezamos?
+# 🔎 Step by Step
+1. 
