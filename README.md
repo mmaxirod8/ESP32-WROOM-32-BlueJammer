@@ -16,7 +16,7 @@
 First, we need the following components to carry out the project:
 - `ESP32-WROOM-32` (de 38 pines o de 30 pines) or `ESP32-U` (este ultimo debera tener incorporado su antena propia)
 - `USB Cable` or `Litium Battery` [optional], for the power of the ESP32
-- `2 x nrf24l01 + anthena`
+- `2 x nrf24l01 + anthena` (this black model recomended, existen otros)
 - `Jumpers wire` or `tin` [optional], for connections
 - `Protoboard` (for testing in first place) or `PCB perforda` (si queremos una implementacion final y portabilidad) [optional]
 - `Una PC`para cargar el firmware y flasheo
