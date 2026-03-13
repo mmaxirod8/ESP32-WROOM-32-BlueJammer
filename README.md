@@ -14,7 +14,7 @@
 
 ### 🛒 Things we need
 First, we need the following components to carry out the project:
-- `ESP32-WROOM-32` (de 38 pines) or `ESP32-U` (este ultimo debera tener incorporado su antena propia)
+- `ESP32-WROOM-32` (de 38 pines o de 30 pines) or `ESP32-U` (este ultimo debera tener incorporado su antena propia)
 - `USB Cable` or `Litium Battery` [optional], for the power of the ESP32
 - `2 x nrf24l01 + anthena`
 - `Jumpers wire` or `tin` [optional], for connections
