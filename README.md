@@ -52,15 +52,21 @@ En esta parte tenemos dos paginas web que se encargaran del flasheo y firmware d
 https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
 
 ### 5. ⛓️‍💥 Connections
-En esta parte es donde debemos prestar muchisima atencion
-- Debemos verificar la cantidad de pines y el modelo de nuestra placa. Las siguientes imagenes describen el pinmap de las placas ESP32 mas comunes:
-   - ESP32-WROOM-32 (38 Pins)
-   <p align="center">
+👉 ***En esta parte es donde debemos prestar muchisima atencion***
+- Debemos verificar la cantidad de pines y el modelo de nuestras placas 
+- Las siguientes imagenes describen el pinmap de las placas ESP32 mas comunes:
+   - *ESP32-WROOM-32 (38 Pins)*
+     <p align="center">
      <img width="1077" height="521" alt="image" src="https://github.com/user-attachments/assets/7334332b-b5f3-4cb0-bdd5-9baee315d54c" />
-</p>
+     </p>
 
-   - ESP32-WROOM-32 (30 Pins)
-   <p align="center">
-   <img width="950" height="600" alt="image" src="https://github.com/user-attachments/assets/34bf288e-bf40-4375-a491-68d3510262a8" />
+   - *ESP32-WROOM-32 (30 Pins)*
+     <p align="center">
+     <img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/34bf288e-bf40-4375-a491-68d3510262a8" />
+     </p>
+
+- La siguiente imagen describe el pinmap de las placas nrf24L01 (en sus dos modelos)
+ <p align="center">
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/c7a51ea7-fc47-4d03-b2b8-3a622ed1e1b9" />
 </p>
 
