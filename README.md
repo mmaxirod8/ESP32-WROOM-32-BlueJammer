@@ -70,3 +70,8 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
       <img width="760" height="600" alt="image" src="https://github.com/user-attachments/assets/c7a51ea7-fc47-4d03-b2b8-3a622ed1e1b9" />
       </p>
 
+- Una vez establecidos los pines y los modelos de las placas a utilizar, vamos a proceder con las conexiones, segun el proyecto que hayamos elegido:
+   - Para la version *Proyecto completo*:
+     
+   - Para la version *Proyecto de rapida implementeacion*:
+
