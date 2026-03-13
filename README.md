@@ -19,6 +19,7 @@ First, we need the following components to carry out the project:
 - `2 x nrf24l01 + anthena`
 - `Jumpers wire` or `tin` [optional], for connections
 - `Protoboard` (for testing in first place) or `PCB perforda` (si queremos una implementacion final y portabilidad) [optional]
+- `Una PC`para cargar el firmware y flasheo
 - `0.9 inch Oled screen` [optional]
 - `5 buttons` [optional]
 - `Led Monitor` [optional]
@@ -27,18 +28,26 @@ First, we need the following components to carry out the project:
 
 # 🔎 Step by Step
 ### 1. 📟 ESP32 Drivers
+En primer lugar, es escencial que nuestra PC pueda reconocer a nuestra ESP32 en sus puertos de I/O. 
+- Para ello, descargamos el archivo `` del siguiente linke
+- Luego, debemos descomprimir la carpeta que nos aparacera
+- Una vez hecho eso, nos iremos a `Device
 
 https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads
 
 ### 2. ⚖️ Existen 2 versiones del proyecto, ¿cual vas a elegir?
 
-- Proyecto completo y pulido
-- Proyecto de rapida implementacion
+- *Proyecto completo*
+- *Proyecto de rapida implementacion*
 
 ### 3. 📜 Una vez elegida la version, ¿que necesitamos para empezar a construir nuestro BlueJammer en cada caso?
 
 ### 4. 🛠️ Flash & Firmware
 
+En esta parte tenemos dos paginas web que se encargaran del flasheo y firmware de la placa, es decir, aplicaran el codigo necesario para que el ESP32 ejecute las acciones jamming.
+
+- Para la version *Proyecto completo*:
+- Para la version *Proyecto de rapida implementeacion*:
 https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
 
 ### 5. ⛓️‍💥 Connections
