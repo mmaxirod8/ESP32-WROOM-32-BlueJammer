@@ -37,9 +37,9 @@ En primer lugar, es escencial que nuestra PC pueda reconocer a nuestra ESP32 en 
 
 ### 2. ⚖️ Existen 2 versiones del proyecto, ¿cual vas a elegir?
 
-- ***Proyecto completo*** --> Incluye menu de seleccion (navegable con botones) de Jamming y otras opciones (Vulnerabilidades Iphone, Analizador de Señales, entre otras), tambien un led indicador de accion (indica cuando el dispositivo esta realizando una accion jamming) y una mayor portabilidad dado que tiene una bateria de litio, y su tamaño es considerablemente mas pequeño, debido a la personalizacion de la PCB en donde iran ensamblados todos los componentes.
+- ***Proyecto completo*** --> Incluye menu de seleccion (navegable con botones) de Jamming de objetivos (como para: Vulnerabilidades Iphone, Analizador de Señales, entre otras), tambien un led indicador de accion (indica cuando el dispositivo esta realizando una accion jamming) y una mayor portabilidad dado que tiene una bateria de litio, y su tamaño es considerablemente mas pequeño, debido a la personalizacion de la PCB en donde iran ensamblados todos los componentes.
 
-- ***Proyecto de rapida implementacion***
+- ***Proyecto de rapida implementacion*** --> Incluye un uso de pocos materiales para su implementacion, contando solo con una alimentacion (PC o bateria), el microcontrolador ESP32, las placas nrf24L01 junto a sus antenas, y wire jumpers. No tiene menu de seleccion de objetivos, por lo que al activarse, afecta a toda la frecuencia de 2.4 GHz en su alcance.
 
 ### 3. 📜 Una vez elegida la version, ¿que necesitamos para empezar a construir nuestro BlueJammer en cada caso?
 
