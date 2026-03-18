@@ -74,6 +74,7 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
 
 - Una vez establecidos los pines y los modelos de las placas a utilizar, vamos a proceder con las conexiones, segun el proyecto que hayamos elegido:
    - Para la version *Proyecto completo*:
+       Parecido a lo de abajo, pines de oled
      
    - Para la version *Proyecto de rapida implementeacion*:
 
