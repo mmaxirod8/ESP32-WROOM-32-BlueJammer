@@ -67,10 +67,10 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
      <img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/34bf288e-bf40-4375-a491-68d3510262a8" />
      </p>
      
-   -*ESP32-WROOM-32U (Antena extraible & 30 Pins)*
-  <p align="center">
-  <img width="794" height="574" alt="image" src="https://github.com/user-attachments/assets/da56d36e-db77-4661-87b9-6b2a6c9d3a2b" />
-  </p>
+   - *ESP32-WROOM-32U (Antena extraible & 30 Pins)*
+     <p align="center">
+     <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/da56d36e-db77-4661-87b9-6b2a6c9d3a2b" />
+     </p>
 
 
 - La siguiente imagen describe el pinmap de las placas nrf24L01 in its black models (nosotros en este caso, usaremos el modelo de abajo, el nrf24L01 + PA/LNA)
