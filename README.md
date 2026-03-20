@@ -51,10 +51,16 @@ En primer lugar, es escencial que nuestra PC pueda reconocer a nuestra ESP32 en 
     - `PCB (5x7 cm)`
     - `ESP32 (Models below)`
     - `2x nrf24L01 + Antenas`
+    - `Battery output 3.3 V (litium or a portable one)`
     - For testing --> `Protoboard` & `Jump Wires`
 
 
 - 2️⃣ ***Proyecto basico***
+    - `2x nrf24L01 + Antenas`
+    - `ESP32 (Models below)`
+    - `Protoboard`
+    - `Jump Wires`
+    - `PC + USB cable` or `Battery output 3.3 V (litium or a portable one)`
 
 ### 4. 🛠️ Flash & Firmware
 
