@@ -1,5 +1,5 @@
 # Generador de ruido electromagnético "BlueJammer"
-### 📌 Here you can see how cyber attackers could implemented a ESP32 as the main component for a Bluetooth/WI-FI Jammer.
+### 📌 Here you can see how could cyber-attackers implement a ESP32 as the main component for a Bluetooth/WI-FI Jammer.
 
 <p align="center">
 <img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/f06bab14-9d3d-45f5-8d8d-57611350fd09" />
