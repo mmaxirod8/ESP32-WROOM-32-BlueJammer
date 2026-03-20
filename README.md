@@ -16,12 +16,12 @@
 First, we need the following components to carry out the project:
 - `ESP32-WROOM-32` (de 38 pines o de 30 pines) or `ESP32-WROOM-32U` (este ultimo debera tener incorporado su antena propia)
 - `USB Cable` or `Battery output 3.3 V (litium or a portable one)` (for the power of the ESP32) [optional]
-- `2 x nrf24l01 + anthena` (this black model recomended, existen otros)
+- `x2 nrf24l01 + anthena` (this black model recomended, existen otros)
 - `Jumpers wire` or `tin` [optional], for connections
 - `Protoboard` (for testing in first place) or `PCB perforda` (si queremos una implementacion final y portabilidad) [optional]
 - `PC` (para cargar el firmware, el flasheo, y por si queremos usarla para alimentar a la ESP32)
 - `0.9 inch Oled screen` [optional]
-- `5 buttons` [optional]
+- `x5 buttons` [optional]
 - `Modulo Control Led` [optional]
 - `Modulo cargador de batería USB-c TP4056` (para cargar la bateria) [optional] 
 
@@ -46,25 +46,25 @@ En primer lugar, es escencial que nuestra PC pueda reconocer a nuestra ESP32 en 
 
 - 1️⃣ ***Proyecto completo***
     - `Oled Screen (128x64 px or 0.9 inches)`
-    - `5 Buttons`
+    - `x5 Buttons`
     - `Modulo Control Led`
     - `Tin & Solder`
     - `PCB (5x7 cm)`
     - `ESP32 (Models below)`
-    - `2x nrf24L01 + Antenas`
+    - `x2 nrf24L01 + Antenas`
     - `Battery output 3.3 V or 3.7 V (litium or a portable one)`
-    - `Modulo cargador de batería USB-c TP4056`
-    - `PC` para cargar el firmware y el flasheo
+    - `Modulo cargador de batería USB-c TP4056` para cargar la bateria de litio
+    - `PC & USB cable` para cargar el firmware y el flasheo
     - For testing --> `Protoboard` & `Jump Wires`
 
 
 - 2️⃣ ***Proyecto basico***
-    - `2x nrf24L01 + Antenas`
+    - `x2 nrf24L01 + Antenas`
     - `ESP32 (Models below)`
     - `Protoboard`
     - `Jump Wires`
-    - `USB cable` or `Battery output 3.3 V or 3.7 V (litium or a portable one)`
-    - `PC` para cargar el firmware, el flasheo, y por si queremos usarla para alimentar a la ESP32
+    - `PC & USB cable` para cargar el firmware, el flasheo, y por si queremos usarla para alimentar a la ESP32
+    - `Battery output 3.3 V or 3.7 V (litium or a portable one)` [optional]
 
 ### 4. 🛠️ Flash & Firmware
 
