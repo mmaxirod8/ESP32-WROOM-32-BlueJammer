@@ -1,5 +1,5 @@
-# ESP32 BlueJammer
-### 📌 Here you can see how I implemented a ESP32-WROOM-32 as the main component for a Bluetooth/WI-FI Jammer.
+# Generador de ruido electromagnético "BlueJammer"
+### 📌 Here you can see how I implemented a ESP32 as the main component for a Bluetooth/WI-FI Jammer.
 
 <p align="center">
 <img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/f06bab14-9d3d-45f5-8d8d-57611350fd09" />
@@ -8,12 +8,12 @@
 
 ---
 
-### ⚠️ ***Legal Information:*** Este proyecto solo tiene fines educativos. No promueve el uso ilegal e indebido. Se deben tener precauciones de seguridad.
+### ⚠️ ***Legal Information:*** Este proyecto solo tiene fines educativos, obersvando las principales tematicas: Estudio de la Resiliencia de Protocolos, Análisis del Ratio Señal-Ruido (SNR), Concienciación en Ciberseguridad, entre otros. No promueve el uso ilegal e indebido del mismo. Se deben tener precauciones de seguridad al utilizarlo.
 
 ---
 
-### 🛒 Things we need
-First, we need the following components to carry out the project:
+### 🛒 Components that I implemented
+Somo of these following components were used to carry out the project:
 - `ESP32-WROOM-32` (de 38 pines o de 30 pines) or `ESP32-WROOM-32U` (este ultimo debera tener incorporado su antena propia)
 - `USB Cable` or `Battery output 3.3 V (litium or a portable one)` (for the power of the ESP32) [optional]
 - `x2 nrf24l01 + anthena` (this black model recomended, existen otros)
@@ -27,7 +27,7 @@ First, we need the following components to carry out the project:
 
 ---
 
-# 🔎 Step by Step
+# 🔎 Step by Step of the process
 ### 1. 📟 ESP32 Drivers
 En primer lugar, es escencial que nuestra PC pueda reconocer a nuestra ESP32 en sus puertos de I/O. 
 - Para ello, descargamos el archivo con el siguiente nombre `CP210x Universal Windows Driver` del siguiente link: https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads
@@ -36,13 +36,13 @@ En primer lugar, es escencial que nuestra PC pueda reconocer a nuestra ESP32 en 
 -  En esta opcion, apretaremos en los tres puntitos, y aqui deberemos de buscar la ubicacion de la carpeta descomprimida que hemos descargado del link proporcionado
 -  Nos tendra que aparecer que los drivers se añadieron correctamente, y para confirmar, nuestra ESP32 debera salir en las listas desplegables `Other devices` o en `Ports (COM & LPT)`, junto al puerto que le asigno nuestra PC
 
-### 2. ⚖️ Existen 2 versiones del proyecto, ¿cual vas a elegir?
+### 2. ⚖️ Existen 2 versiones del proyecto
 
 - 1️⃣ ***Proyecto completo*** --> Incluye menu de seleccion (navegable con botones que deberan ir colocados en la PCB) de Jamming para diferentes objetivos (Vulnerabilidades Iphone, Analizador de Señales, Camaras, entre otras), un led indicador de accion (indica cuando el dispositivo esta realizando una accion jamming), tambien una mayor portabilidad dado que tiene una bateria de litio incorporada, y una PCB, lugar en donde iran ensamblados todos los componentes del dispositivo.
 
 - 2️⃣ ***Proyecto básico*** --> Incluye un uso de pocos materiales para su implementacion. No tiene menu de seleccion de objetivos, por lo que al activarse, afecta a toda la frecuencia de 2.4 GHz en su alcance. Puede ser un proyecto fijo (si se aplica en protoboard + PC) o de portabilidad (por si queremos realizar este mismo proyecto en una PCB + bateria portatil; sin embargo, aqui ya se tardaria mas tiempo debido a las soldaduras y conexiones que hay que hacer para la PCB, a diferencia de solo conectar cables en una protoboard). Como dato extra, si se desea un dispositivo BlueJammer, el mas pequeño posible, el dispositivo del `proyecto de rapida implementacion portatil` es la mejor opcion, ya que es mucho mas chico que el del `proyecto completo` (debido a que contiene pantalla, botones, etc)
 
-### 3. 📜 Una vez elegida la version, ¿que necesitamos para empezar a construir nuestro BlueJammer en cada caso?
+### 3. 📜 Componentes para la construccion del proyecto, segun la version:
 
 - 1️⃣ ***Proyecto completo***
     - `Oled Screen (128x64 px or 0.9 inches)`
@@ -77,8 +77,8 @@ https://mega.nz/folder/OQpDnLgY#gKpLGsnu_np7O00hVTvWxg
 https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
 
 ### 5. ⛓️‍💥 Connections
-👉 ***En esta parte es donde debemos prestar muchisima atencion***
-- Primero, debemos verificar la cantidad de pines y el modelo de nuestras placas (ESP32 y nrf24L01)
+👉 ***En esta parte es donde hay que prestar muchisima atencion***
+- Primero, se debe verificar la cantidad de pines y el modelo de nuestras placas (ESP32 y nrf24L01)
 - Las siguientes imagenes describen el pinmap de las placas ESP32 mas comunes:
    - *ESP32-WROOM-32 (38 Pins)*
      <p align="center">
@@ -101,7 +101,7 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
       <img width="760" height="600" alt="image" src="https://github.com/user-attachments/assets/c7a51ea7-fc47-4d03-b2b8-3a622ed1e1b9" />
       </p>
 
-- 👉 Una vez establecidos los pines y los modelos de las placas a utilizar, vamos a proceder con las conexiones, segun el proyecto que hayamos elegido:
+- 👉 Una vez establecidos los pines y los modelos de las placas a utilizar, se procede con las conexiones, segun la version del proyecto:
    - 1️⃣ Para la version *Proyecto completo*:
       - 📛 ***Serial Peripheral Interface*** of ESP32 (pines para las placas de antena, y para cualquier version de los ESP32)
 
