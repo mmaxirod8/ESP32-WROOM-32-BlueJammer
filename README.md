@@ -11,7 +11,6 @@
 ### ⚠️ ***Legal Information:*** This project is for educational purposes only, focusing on key topics such as protocol resilience, signal-to-noise ratio (SNR) analysis, and cybersecurity awareness, among others. It does not promote its illegal or improper use. Security precautions should be taken.
 
 ⚖️ Disclaimer and Terms of Use (Legal Disclaimer)
-Exclusive Use for Research and Education
 
 This project, technically named "Signal Generator for Resilience Testing in 2.4 GHz Protocols," has been developed for strictly academic, security auditing, and technology awareness purposes.
 
