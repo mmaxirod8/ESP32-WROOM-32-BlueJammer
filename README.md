@@ -79,13 +79,13 @@ First, it is essential that a PC can recognize the ESP32 on its I/O ports.
 
 ### 2. 🎏 There are 2 known versions of the project
 
-- 1️⃣ ***Proyecto completo*** --> ***Complete Project*** --> Includes a selection menu (navigable with buttons that must be placed on the PCB) for Jamming for different objectives (Saturation tests in 802.11 protocols, Signal Analyzer, Interference analysis in IoT devices, among others), an action indicator LED (indicates when the device is performing a jamming action), also greater portability since it has a built-in lithium battery, and a PCB, where all the components of the device will be assembled.
+- 1️⃣ ***Complete Project*** --> Includes a selection menu (navigable with buttons that must be placed on the PCB) for Jamming for different objectives (Saturation tests in 802.11 protocols, Signal Analyzer, Interference analysis in IoT devices, among others), an action indicator LED (indicates when the device is performing a jamming action), also greater portability since it has a built-in lithium battery, and a PCB, where all the components of the device will be assembled.
 
 - 2️⃣ ***Basic Project*** --> This project requires minimal materials for implementation. It lacks a target selection menu, so when activated, it affects the entire 2.4 GHz frequency within its range. It can be a fixed project (if implemented on a breadboard and PC) or a portable project (if you want to implement the same project on a PCB and portable battery; however, this will take longer due to the soldering and connections required for the PCB, unlike simply connecting wires on a breadboard). As an extra note, if you want the smallest possible BlueJammer device, the "portable quick-implementation project" device is the best option, as it is much smaller than the "complete project" device (because it includes a screen, buttons, etc.).
 
 ### 3. 📜 Components for the construction of the project, according to the version:
 
-- 1️⃣ ***Proyecto completo***
+- 1️⃣ ***Complete Project***
     - `Oled Screen (128x64 px or 0.9 inches)`
     - `x5 Buttons`
     - `Modulo Control Led`
@@ -94,33 +94,33 @@ First, it is essential that a PC can recognize the ESP32 on its I/O ports.
     - `ESP32 (Models below)`
     - `x2 nrf24L01 + Antenas`
     - `Battery output 3.3 V or 3.7 V (litium or a portable one)`
-    - `Modulo cargador de batería USB-c TP4056` para cargar la bateria de litio
-    - `PC & USB cable` para cargar el firmware y el flasheo
+    - `Modulo cargador de batería USB-c TP4056` (to charge the lithium battery)
+    - `PC & USB cable` (to load the firmware and flash)
     - For testing --> `Protoboard` & `Jump Wires`
 
 
-- 2️⃣ ***Proyecto basico***
+- 2️⃣ ***Basic Project***
     - `x2 nrf24L01 + Antenas`
     - `ESP32 (Models below)`
     - `Protoboard`
     - `Jump Wires`
-    - `PC & USB cable` para cargar el firmware, el flasheo, y por si queremos usarla para alimentar a la ESP32
+    - `PC & USB cable` (for loading the firmware, flashing, and if we want to use it to power the ESP32)
     - `Battery output 3.3 V or 3.7 V (litium or a portable one)` [optional]
 
 ### 4. 🛠️ Flash & Firmware
 
-En esta parte existen dos sitios web que se encargan del flasheo y firmware de la placa, es decir, las que aplican el codigo necesario para que el ESP32 ejecute las acciones jamming.
+In this section there are two websites that handle the flashing and firmware of the board, that is, those that apply the code necessary for the ESP32 to perform the jamming actions.
 
-- 1️⃣ Para la version *Proyecto completo*: 
+- 1️⃣ For the *Complete Project* version:
 https://mega.nz/folder/OQpDnLgY#gKpLGsnu_np7O00hVTvWxg
 
-- 2️⃣ Para la version *Proyecto básico*:
+- 2️⃣ For the *Basic Project* version:
 https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
 
 ### 5. ⛓️‍💥 Connections
 
-- Primero, se debe verificar la cantidad de pines y el modelo de nuestras placas (ESP32 y nrf24L01)
-- Las siguientes imagenes describen el pinmap de las placas ESP32 mas comunes:
+- First, you must verify the number of pins and the model of our boards (ESP32 and nrf24L01)
+- The following images describe the pinmap of the most common ESP32 boards:
    - *ESP32-WROOM-32 (38 Pins)*
      <p align="center">
      <img width="1077" height="521" alt="image" src="https://github.com/user-attachments/assets/7334332b-b5f3-4cb0-bdd5-9baee315d54c" />
@@ -131,22 +131,22 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
      <img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/34bf288e-bf40-4375-a491-68d3510262a8" />
      </p>
      
-   - *ESP32-WROOM-32U (Antena extraible & 30 Pins)*
+   - *ESP32-WROOM-32U (Removable antenna & 30 pins)*
      <p align="center">
      <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/da56d36e-db77-4661-87b9-6b2a6c9d3a2b" />
      </p>
 
 
-- La siguiente imagen describe el pinmap de las placas nrf24L01 in its black models (por lo general se opta por el modelo nrf24L01 + PA/LNA)
+- The following image describes the pinmap of the nrf24L01 boards in their black models (usually the nrf24L01 + PA/LNA model is chosen)
       <p align="center">
       <img width="760" height="600" alt="image" src="https://github.com/user-attachments/assets/c7a51ea7-fc47-4d03-b2b8-3a622ed1e1b9" />
       </p>
 
-- 👉 Una vez establecidos los pines y los modelos de las placas a utilizar, se procede con las conexiones, segun la version del proyecto:
-   - 1️⃣ Para la version *Proyecto completo*:
-      - 📛 ***Serial Peripheral Interface*** of ESP32 (pines para las placas de antena, y para cualquier version de los ESP32)
+- 👉 Once the pins and board models to be used have been established, the connections are made, according to the project version:
+   - 1️⃣ For the *Complete Project* version
+      - 📛 ***Serial Peripheral Interface*** of ESP32 (pins for antenna boards, and for any version of the ESP32)
 
-        &nbsp;&nbsp; --> ***HSPI*** (Generalmente se usa como bus SPI principal de alta velocidad)
+        &nbsp;&nbsp; --> ***HSPI*** (it is generally used as the main high-speed SPI bus)
         
       | Pines nrf24L01 (1 de 2 placa) | Pin ESP32 |
       | :--- | :---: |
@@ -158,7 +158,7 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
       | **VCC** | Au |
       | **GND** | Au |
      
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> ***VSPI*** (Segundo bus independiente, ideal para separar dispositivos y evitar conflictos de velocidad)
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> ***VSPI*** (second independent bus, ideal for separating devices and avoiding speed conflicts)
   
 
 
@@ -172,7 +172,7 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
       | **VCC** | Au |
       | **GND** | Au |
 
-     - 📛 ***Oled Screen*** (pines para la pantalla OLED donde veremos el menu de opciones)
+     - 📛 ***Oled Screen*** (pins for the OLED screen where we will see the options menu)
 
       | Pines Pantalla Oled | Pin ESP32 |
       | :--- | :---: |
