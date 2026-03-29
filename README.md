@@ -149,11 +149,11 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
         
       | nrf24L01 (1 of 2) pins | ESP32 pins |
       | :--- | :---: |
-      | **MOSI** | 13 | 
-      | **MISO** | 12 |
-      | **SCK** | 14 |
-      | **CE** | 16 |
-      | **CS o CNS** | 15 |
+      | **MOSI** | GPIO 13 | 
+      | **MISO** | GPIO 12 |
+      | **SCK** | GPIO 14 |
+      | **CE** | GPIO 16 |
+      | **CS o CNS** | GPIO 15 |
       | **VCC** | 3.3 V |
       | **GND** | GND |
      
@@ -163,11 +163,11 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
 
       | nrf24L01 (2 of 2) pins | ESP32 pins |
       | :--- | :---: |
-      | **MOSI** | 23 | 
-      | **MISO** | 19 |
-      | **SCK** | 18 |
-      | **CE** | 22 |
-      | **CS o CNS** | 21 |
+      | **MOSI** | GPIO 23 | 
+      | **MISO** | GPIO 19 |
+      | **SCK** | GPIO 18 |
+      | **CE** | GPIO 22 |
+      | **CS o CNS** | GPIO 21 |
       | **VCC** | 3.3 V |
       | **GND** | GND |
 
@@ -175,11 +175,11 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
 
       | Oled screen pins| ESP32 pins |
       | :--- | :---: |
-      | **Boton 1** | Au | 
-      | **Boton 2** | So |
+      | **SCL** | Au | 
+      | **SCA** | So |
       | **Boton 3** | Au |
-      | **Boton 4** | Au |
-      | **Boton 5** | Au |
+      | **VCC** | 3.3 V |
+      | **GND** | GND |
 
      - 📛 ***Leds Switch Module Ws2812 Rgb*** (pins for the jamming activation indicator LED)
 
