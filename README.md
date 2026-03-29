@@ -163,13 +163,13 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
 
       | nrf24L01 (2 of 2) pins | ESP32 pins |
       | :--- | :---: |
-      | **MOSI** | Au | 
-      | **MISO** | So |
-      | **SCK** | Au |
-      | **CE** | Au |
-      | **CS o CNS** | Au |
-      | **VCC** | Au |
-      | **GND** | Au |
+      | **MOSI** | 23 | 
+      | **MISO** | 19 |
+      | **SCK** | 18 |
+      | **CE** | 22 |
+      | **CS o CNS** | 21 |
+      | **VCC** | 3.3 V |
+      | **GND** | GND |
 
      - 📛 ***0.9 inch (or 128x64 px) Oled screen*** (pins for the OLED screen where we will see the options menu)
 
@@ -232,10 +232,10 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
 
       | nrf24L01 (2 of 2) pins | ESP32 pins |
       | :--- | :---: |
-      | **MOSI** | Au | 
-      | **MISO** | So |
-      | **SCK** | Au |
-      | **CE** | Au |
-      | **CS o CNS** | Au |
-      | **VCC** | Au |
-      | **GND** | Au |
+      | **MOSI** | 23 | 
+      | **MISO** | 19 |
+      | **SCK** | 18 |
+      | **CE** | 22 |
+      | **CS o CNS** | 21 |
+      | **VCC** | 3.3 V |
+      | **GND** | GND |
