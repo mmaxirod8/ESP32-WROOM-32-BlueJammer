@@ -144,6 +144,7 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
 - 👉 Once the pins and board models to be used have been established, the connections are made, according to the project version:
    - 1️⃣ For the *Complete Project* version
       - 📛 ***Serial Peripheral Interface*** of ESP32 (pins for antenna boards, and for any version of the ESP32)
+        
         - 📡***First Antenna***
         
       | nrf24L01 (1 of 2) pins | ESP32 pins |
