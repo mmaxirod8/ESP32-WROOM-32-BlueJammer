@@ -232,8 +232,8 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
 
 
 ### 🚩 Real example
-<img width="1144" height="648" alt="image" src="https://github.com/user-attachments/assets/b02aa1d8-434a-493c-a052-179216d8b1b9" />
+<img width="600" height="648" alt="image" src="https://github.com/user-attachments/assets/b02aa1d8-434a-493c-a052-179216d8b1b9" />
 
 
-<img width="446" height="242" alt="image" src="https://github.com/user-attachments/assets/9148ca7b-35bf-4b45-b6e2-be984147a43c" />
+<img width="600" height="648" alt="image" src="https://github.com/user-attachments/assets/9148ca7b-35bf-4b45-b6e2-be984147a43c" />
 
