@@ -231,5 +231,5 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
       | **GND** | GND |
 
 
-### 🚩 Real example of the connections & components
+### 🚩 Real example
 
