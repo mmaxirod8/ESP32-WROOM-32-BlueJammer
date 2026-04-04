@@ -229,3 +229,7 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
       | **CS o CNS** | GPIO 21 |
       | **VCC** | 3.3 V |
       | **GND** | GND |
+
+
+### 🚩 Real example of the connections & components
+
