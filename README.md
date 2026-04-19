@@ -26,6 +26,12 @@ This project, technically named "Signal Generator for Resilience Testing in 2.4 
 
 ### ❓ How it works?
 
+Funcionality Diagram
+
+---
+
+### 📦 Secure Enviorements
+
 ---
 
 ### 🛡️ Mitigation and Resilience Strategies (Blue Teaming)
